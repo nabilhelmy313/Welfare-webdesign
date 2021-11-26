@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+
+body , h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5{
+    font-family: 'Tajawal', sans-serif !important;
+    font-family: 'Tajawal', sans-serif !important;
+}
+.navbar-light .navbar-nav .active > .nav-link{
+    color: #218838 !important;
+    border-bottom: 3px solid #218838;
+    height: 40px
+}
+.btn-login{
+    border-bottom-left-radius: 5px;
+    border-top-right-radius:5px;
+    background: white;
+    font-weight: bold;
+}
+button:focus{
+    outline: none;
+}
+.heading-section h2{
+font-size: 25px !important;
+font-weight: bold;
+}
+.navbar {
+    background: white !important;
+}
+.ftco-navbar-light{
+    top: 0;
+}
+.signout{
+    background: none;
+    border: none;
+}
+.navbar .nav-item{
+    font-weight: 600;
+}
+.nav-link .btn-login:hover{
+  background: #218838;
+  color: #fff !important;
+
+}
+.image-section{
+    background-image: url(../images/bg_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+.section1{
+    width: 100%;
+    height: 300px;
+}
+.sections-div{
+    height: auto;
+    
+}
+.div-green{
+    height: 7px;
+    width: 23%;
+    background: green;
+}
+.image-partner .img{
+    background-image: url(../images/person_1.jpg);
+    width: 110px;
+    height: 105px;
+    border: 4px solid #f0f0f0;
+}
+.staff .info{
+width: 100%;
+}
+
+.volantaree-div{
+    border: 1px solid rgb(194, 194, 194);
+    height: auto;
+    margin-top: 50%;
+}
+.volantaree-div .image {
+background: url(../images/person1.png);
+background-repeat: no-repeat;
+background-size: cover;
+height: 300px;
+margin-top: -180px;
+}
+.volantaree-div .image2 {
+    background: url(../images/person2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin-top: -180px;
+    }
+    
+    .volantaree-div .image3 {
+        background: url(../images/person3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        margin-top: -180px;
+        }
+        .copyright-div{
+            background: #D4D4D4;
+        }
+
+        .ftco-footer .ftco-footer-widget h2:after{
+position: absolute;
+    bottom: -15px;
+    right: 0 !important;
+    content: '';
+    width: 70px;
+    height: 1px;
+    background: #fff;
+   
+}
+.text a{
+    color: green !important;
+}
+.staff .info h4 a{
+    color: green !important;
+}
+.info h6{
+    font-weight: bold;
+}
+/* invities page custom style  */
+.form-section{
+    background-color: #F6F6F6;
+}
+input[type=text],textarea.form-control,select.form-control {
+    -webkit-transition: 0.5s;
+    border: 3px solid #fff;
+
+    transition: 0.5s;
+    outline: none;
+  }
+  
+input[type=text]:focus,textarea.form-control:focus,select.form-control:focus{
+    border: 3px solid #218838;
+  };
+.input-group-text{
+border: none;
+}
+
+
+.support .form-group input[type=text],.support .form-group input[type=number],.support .form-group textarea.form-control {
+    -webkit-transition: 0.5s;
+    border: 3px solid #DBDBDB;
+    transition: 0.5s;
+    outline: none;
+  }
+.support .form-group  input[type=text]:focus,.support .form-group input[type=number]:focus,.support .form-group textarea.form-control:focus,select.form-control:focus{
+    border: 3px solid #218838;
+}
+
+
+.btn
+{
+    box-shadow: none;
+    background-color: #E9ECEF;
+}
+.drag-area,.drag-area2,.drag-area3{
+    border: 3px dashed #B5B5B5;
+
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .drag-area.active,.drag-area2.active,.drag-area3.active{
+    border: 2px solid #fff;
+  }
+  .drag-area .icon,.drag-area2 .icon,.drag-area3 .icon{
+    font-size: 100px;
+    color: #B5B5B5;
+  }
+  .drag-area header, .drag-area2 header, .drag-area3 header{
+    font-size: 30px;
+    font-weight: 500;
+    color: #B5B5B5;
+  }
+  .drag-area span,.drag-area2 span,.drag-area3 span{
+    font-size: 25px;
+    font-weight: 500;
+    color: #B5B5B5;
+    margin: 10px 0 15px 0;
+  }
+  .drag-area button,.drag-area2 button,.drag-area3 button,.btn-card{
+    color: white;
+    background-color: #218838;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius:5px;
+    cursor: pointer;
+  }
+  .drag-area img,.drag-area2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  .icon-cloud-upload{
+      color: #B5B5B5;
+  } 
+  .support{
+      background-color: #FFFFFF;
+  }
+
+/* 00000000000000000 */
+
+
+#holder {
+	width: 100%;
+}
+
+#holder > div {
+	clear: both;
+	padding: 2%;
+	margin-bottom: 20px;
+	float: left;
+	width: 96%;
+}
+
+label {
+	display: inline;
+}
+
+.regular-checkbox {
+	display: none;
+}
+
+.regular-checkbox + label {
+	background-color: #fafafa;
+	border: 1px solid #cacece;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 9px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+    width: 30px;
+}
+
+.regular-checkbox + label:active, .regular-checkbox:checked + label:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.regular-checkbox:checked + label {
+	background-color: #e9ecee;
+	border: 1px solid #adb8c0;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+	color: #99a1a7;
+}
+
+.regular-checkbox:checked + label:after {
+	content: '\2714';
+	font-size: 22px;
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	color: #99a1a7;
+}
+
+
+.big-checkbox + label {
+	padding: 18px;
+}
+
+.big-checkbox:checked + label:after {
+	font-size: 28px;
+	left: 6px;
+}
+
+
+
+
+
+
+  
